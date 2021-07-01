@@ -215,6 +215,10 @@ header .profile .social-links a{
 }
 
 @media (max-width: 768px){
+    #hero .hero-container{
+        left: 30px;
+        top: 150px;
+    }
     #hero .hero-container h1{
         font-size: 28px;
         line-height: 36px; 
@@ -777,6 +781,7 @@ section .section-title h2::after{
     position: fixed;
     bottom: 15px;
     right: 15px;
+    z-index: 999;
 }
 .back-to-top i{
     display: inline-flex;
